@@ -1,0 +1,11 @@
+To autostart thermometer reader copy 433MHZRT to /etc/init.d
+
+cp [yourfolder]/433MHzRT /etc/init.d
+
+make it runnable
+
+chmod +x /etc/init.d/433MHzRT
+
+and tell update-rc that script should be use in it's default levels
+
+update-rc.d 433MHzRT defaults
